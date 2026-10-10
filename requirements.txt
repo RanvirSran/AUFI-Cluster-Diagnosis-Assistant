@@ -1,0 +1,11 @@
+numpy
+pandas
+pytest
+
+# API
+fastapi
+uvicorn
+
+# RAG layer (uncomment when ingestion lands; adjust to whatever stack you settle on)
+# chromadb
+# ollama

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+
+# Env / secrets
+.env
+.env.local
+
+# Generated artifacts (rebuild with backend/rag/ingest.py)
+data/vectorstore/
+chroma_db/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
